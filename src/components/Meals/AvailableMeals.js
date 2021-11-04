@@ -34,7 +34,9 @@ const DUMMY_MEALS = [
         <MealItem 
             key={meal.id}
             id={meal.id}
-            meal={meal}
+            name={meal.name}
+            description={meal.description}
+            price={meal.price}
         />);
 
     return <section className={classes.meals}>
